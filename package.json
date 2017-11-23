@@ -1,0 +1,26 @@
+{
+  "name": "nexmo-sms",
+  "version": "1.0.0",
+  "description": "Node.js app that uses Nexmo to send SMS text messages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandon-smith-small-projects/Node-Nexmo-SMS.git"
+  },
+  "author": "Brandon Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandon-smith-small-projects/Node-Nexmo-SMS/issues"
+  },
+  "homepage": "https://github.com/brandon-smith-small-projects/Node-Nexmo-SMS#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nexmo": "^2.0.2",
+    "socket.io": "^2.0.4"
+  }
+}
